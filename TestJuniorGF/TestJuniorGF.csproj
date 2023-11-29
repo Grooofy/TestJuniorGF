@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Sprites\Blue.png" />
+      <Resource Include="Sprites\Blue.png" />
+      <None Remove="Sprites\BombBlue.png" />
+      <None Remove="Sprites\BombGreen.png" />
+      <Resource Include="Sprites\BombGreen.png" />
+      <None Remove="Sprites\BombPink.png" />
+      <None Remove="Sprites\BombRed.png" />
+      <None Remove="Sprites\BombYellow.png" />
+      <None Remove="Sprites\Green.png" />
+      <Resource Include="Sprites\Green.png" />
+      <None Remove="Sprites\Pink.png" />
+      <Resource Include="Sprites\Pink.png" />
+      <None Remove="Sprites\Red.png" />
+      <Resource Include="Sprites\Red.png" />
+      <None Remove="Sprites\Yellow.png" />
+      <Resource Include="Sprites\Yellow.png" />
+      <None Remove="Sprites\BlueLineH.png" />
+      <Resource Include="Sprites\BlueLineH.png" />
+      <None Remove="Sprites\BlueLineV.png" />
+      <Resource Include="Sprites\BlueLineV.png" />
+      <None Remove="Sprites\GreenLineH.png" />
+      <Resource Include="Sprites\GreenLineH.png" />
+      <None Remove="Sprites\GreenLineV.png" />
+      <Resource Include="Sprites\GreenLineV.png" />
+      <None Remove="Sprites\PinkLineH.png" />
+      <Resource Include="Sprites\PinkLineH.png" />
+      <None Remove="Sprites\PinkLineV.png" />
+      <Resource Include="Sprites\PinkLineV.png" />
+      <None Remove="Sprites\RedLineH.png" />
+      <Resource Include="Sprites\RedLineH.png" />
+      <None Remove="Sprites\RedLineV.png" />
+      <Resource Include="Sprites\RedLineV.png" />
+      <None Remove="Sprites\YellowLineH.png" />
+      <Resource Include="Sprites\YellowLineH.png" />
+      <None Remove="Sprites\YellowLineV.png" />
+      <Resource Include="Sprites\YellowLineV.png" />
+      <None Remove="Sprites\BlueBomb.png" />
+      <Resource Include="Sprites\BlueBomb.png" />
+      <None Remove="Sprites\PinkBomb.png" />
+      <Resource Include="Sprites\PinkBomb.png" />
+      <None Remove="Sprites\RedBomb.png" />
+      <Resource Include="Sprites\RedBomb.png" />
+      <None Remove="Sprites\YellowBomb.png" />
+      <Resource Include="Sprites\YellowBomb.png" />
+    </ItemGroup>
+
+</Project>
